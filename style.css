@@ -1,7 +1,3 @@
-page {
-  scroll-behavior: smooth;
-}
-
 p, ul {
   font-size: 18px;
   color: rgb(75, 75, 75);
@@ -32,7 +28,7 @@ p, ul {
     justify-content: space-between;
   }
   
-  /* User Logo */
+  /* Logo */
   .navbar-wagon .logo {
     height: 40px;
     padding-bottom: 5px;
@@ -62,6 +58,8 @@ p, ul {
     font-size: 14px;
   }
 
+  /* Button */
+
   .btn-flat {
     color: white;
     padding: 8px 24px;
@@ -74,6 +72,8 @@ p, ul {
     opacity: .8;
     color: white !important; 
   }
+  
+  /* Banner */
   
   .banner {
     background-size: cover;
@@ -105,7 +105,7 @@ p, ul {
   }
 
   .section {
-    padding: 3% 10%;
+    padding: 3% 10% 5%;
   }
 
   .background-yellow {
@@ -213,6 +213,8 @@ p, ul {
   .card-product {
     border-radius: 5px;
     padding: 16px 16px 32px 16px;
+    margin: 0px;
+    box-shadow: 0 0 5px rgb(230,230,230);
    
   }
   
@@ -231,9 +233,19 @@ p, ul {
     margin-top: 10px;
   }
 
-  .img-partner-logo {
+  .centered {
     text-align: center;
-    width: 90%;
+  }
+
+  .img-partner-logo-dualsun {
+    height: 80px;
+    padding: 20px 20px 20px 0px;
+    margin-bottom: 20px;
+  }
+
+
+  .img-partner-logo {
+    height: 100px;
     padding: 20px;
   }
 
