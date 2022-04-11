@@ -1,7 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  color: rgb(75, 75, 75) !important; 
+}
+
 p, ul {
   font-size: 18px;
-  color: rgb(75, 75, 75);
-  font-family: "Roboto", sans-serif;
 }
 
 /* Main navbar */
@@ -17,8 +20,6 @@ p, ul {
     position: sticky;
     top: 0;
     z-index: 1;
-    color: rgb(75, 75, 75);
-    font-family: "Roboto", sans-serif;
   }
   
   .navbar-wagon-left {
@@ -86,8 +87,6 @@ p, ul {
     margin-bottom: 20px;
     font-size: 52px;
     font-weight: bold;
-    color: rgb(75, 75, 75);
-    font-family: "Roboto";
   }
   .banner-logos {
     margin-top: 20px;
@@ -127,17 +126,13 @@ p, ul {
   .section h2 {
     font-size: 40px;
     font-weight: bold;
-    color: rgb(75, 75, 75);
     margin-bottom: 20px;
-    font-family: "Roboto", sans-serif;
   }
 
   .section h3 {
     font-size: 24px;
     font-weight: medium;
     margin-bottom: 20px;
-    color: rgb(75, 75, 75);
-    font-family: "Roboto", sans-serif;
   }
   .card-trip {
     overflow: hidden;
@@ -163,13 +158,11 @@ p, ul {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     padding: 10px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
   }
 
   .card-trip .subtitle {
     color: white;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
   }
 
   
@@ -253,7 +246,6 @@ p, ul {
     font-size: 16px;
   }
 
-
   .card {
     height: 170px;
     position: relative;
@@ -266,7 +258,6 @@ p, ul {
     right: 10px;
     bottom: 10px;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
   }
   .card-date {
     position: absolute;
@@ -276,14 +267,12 @@ p, ul {
   .card-date h2 {
     font-size: 16px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
     margin: 5px;
 
   }
   .card-date h3 {
     font-size: 12px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
     color: #01459B;
     margin-top: 10px;
     
@@ -292,7 +281,6 @@ p, ul {
     font-size: 10px;
     /*opacity: 0.7;*/
     font-weight: lighter;
-    font-family: "Roboto", sans-serif;
     color: #01459B;
   }
  
@@ -306,7 +294,6 @@ p, ul {
 
   .footer p {
     margin-top: 10px;
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 14px;
   }
