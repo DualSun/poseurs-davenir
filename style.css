@@ -50,7 +50,7 @@ p, ul {
   
   /* Navbar link */
   .navbar-wagon-link {
-    color: rgb(50,50,50);
+    color: rgb(34, 34, 34);
     font-size: 14px;
   }
   .navbar-wagon-link:hover {
