@@ -7,6 +7,19 @@ p, ul {
   font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  .banner h1 {
+    font-size: 36px !important;
+  }
+}
+
+iframe {
+  width: 100%; 
+  height: 224px;
+}
+
 /* Main navbar */
 .navbar-wagon {
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05),0 1px 0 0 rgba(0,0,0,0.03);
@@ -85,12 +98,12 @@ p, ul {
   
   .banner h1 {
     margin-bottom: 20px;
-    font-size: 52px;
+    font-size: 3.4vw;
     font-weight: bold;
   }
   .banner-logos {
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +137,7 @@ p, ul {
   }
 
   .section h2 {
-    font-size: 40px;
+
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -134,14 +147,14 @@ p, ul {
     font-weight: medium;
     margin-bottom: 20px;
   }
-  .card-trip {
+  .card-module {
     overflow: hidden;
     background: white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     margin-top: 20px;
     border-radius: 5px;
   }
-  .card-trip .card-img {
+  .card-module .card-img {
     background-size: cover;
     background-position: center;
     height: 180px;
@@ -160,35 +173,35 @@ p, ul {
     text-align: center;
   }
 
-  .card-trip .subtitle {
+  .card-module .subtitle {
     color: white;
     font-size: 14px;
   }
 
   
-  .card-trip > img {
+  .card-module > img {
     height: 200px;
     width: 100%;
     object-fit: cover;
   }
   
-  .card-trip h2 {
+  .card-module h2 {
     font-size: 16px;
     font-weight: bold;
     margin: 0;
   }
   
-  .card-trip p {
+  .card-module p {
     font-size: 12px;
     color: rgb(34, 34, 34);
   }
 
-  .card-trip .card-title {
+  .card-module .card-title {
     position: absolute;
 
   }
   
-  .card-trip .card-trip-infos {
+  .card-module .card-module-infos {
     padding: 16px;
     display: flex;
     justify-content: space-between;
@@ -246,60 +259,51 @@ p, ul {
     font-size: 16px;
   }
 
-  .card {
+  .card-event {
     height: 170px;
     position: relative;
     margin-top: 20px;
     border-radius: 3px;
-    box-shadow: 0 0 5px rgb(230,230,230);
+    box-shadow: 0 0 px rgb(230,230,230);
   }
-  .card-city {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 15px;
-  }
-  .card-date {
+  
+  .card-event-date {
     position: absolute;
     top: 10px;
     left: 10px;
   }
-  .card-date h2 {
+  .card-event-date h2 {
     font-size: 16px;
     font-weight: bold;
     margin: 5px;
 
   }
-  .card-date h3 {
+  .card-event-date h3 {
     font-size: 12px;
     font-weight: bold;
     color: #01459B;
     margin-top: 10px;
     
   }
-  .card-date p {
+  .card-event-date p {
     font-size: 10px;
     /*opacity: 0.7;*/
     font-weight: lighter;
     color: #01459B;
   }
  
-  .footer {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  #footer {
+    height: 100px;
+    text-align: center;
+    padding: 20px 0px;
   }
 
-  .footer p {
-    margin-top: 10px;
+  #footer p {
     font-weight: bold;
     font-size: 14px;
   }
 
-  .footer-image {
-    margin-top: 40px;
+  #footer img {
     height: 50px;
   }
 
