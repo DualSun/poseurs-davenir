@@ -218,20 +218,21 @@ iframe {
 
   .card-product {
     border-radius: 5px;
-    padding: 16px 16px 32px 16px;
-    margin: 0px;
-    box-shadow: 0 0 5px rgb(230,230,230);
-   
+    padding: 0px 16px 32px 16px;
+    margin: 0px;   
+  }
+
+  .card-product h3 {
+    margin-top: 0px;
   }
   
   .card-product p {
     font-size: 16px;
     line-height: 1.4;
     margin-bottom: 0;
-    margin-top: 12px;
+    margin-top: 15px;
   }
   
-
   .margin-top {
     margin-top: 20px;
   }
@@ -256,7 +257,11 @@ iframe {
   }
 
   .partners p {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: justify;
+    margin-bottom: 5px;
+
   }
 
   .card-event {
