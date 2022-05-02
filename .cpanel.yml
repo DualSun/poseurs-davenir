@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/poseursdavenir/public_html
+    - export DEPLOYPATH=/home/poseursdavenir/www
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp mentions_legales.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
